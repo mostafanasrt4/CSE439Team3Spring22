@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>808</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CSE439 Group 3 Project</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="logo.qrc">
+    <normaloff>:/logo/logo.png</normaloff>:/logo/logo.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>821</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <widget class="QLabel" name="welcomeLabel">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>180</y>
+       <width>431</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 75 italic 30pt &quot;Georgia&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; font-style:normal; color:#06609f;&quot;&gt;Welcome to&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; font-style:normal; color:#06609f;&quot;&gt;CSE439 Group 3 Project&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="logoLabel">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>10</y>
+       <width>171</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>res/logo.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="scannerPushButton">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>440</y>
+       <width>261</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 75 20pt &quot;Cambria&quot;;
+background-color:rgb(7, 119, 197);
+border-radius:35px;
+font: 75 24pt &quot;Georgia&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Scanner</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>res/goto.jpg</normaloff>res/goto.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="parserPushButton">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>440</y>
+       <width>261</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 75 20pt &quot;Cambria&quot;;
+background-color:rgb(7, 119, 197);
+border-radius:35px;
+font: 75 24pt &quot;Georgia&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Parser</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>res/goto.jpg</normaloff>res/goto.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="logo.qrc"/>
+  <include location="goto.qrc"/>
+ </resources>
+ <connections/>
+</ui>
