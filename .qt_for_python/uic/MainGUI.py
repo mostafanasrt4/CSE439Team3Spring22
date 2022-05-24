@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'f:\Ain Shams\Spring 2022\Assignments\Assignments - CSE439 - Design of Compilers\CSE439Team3Spring22\ui\MainGUI.ui'
+# Form implementation generated from reading ui file 'f:\Ain Shams\Spring 2022\Assignments\Assignments - CSE439 - Design of Compilers\CSE439Team3Spring22\MainGUI.ui'
 #
 # Created by: PyQt6 UI code generator 6.3.0
 #
@@ -30,7 +30,7 @@ class Ui_MainWindow(object):
         self.logoLabel.setGeometry(QtCore.QRect(310, 10, 171, 171))
         self.logoLabel.setStyleSheet("")
         self.logoLabel.setText("")
-        self.logoLabel.setPixmap(QtGui.QPixmap("f:\\Ain Shams\\Spring 2022\\Assignments\\Assignments - CSE439 - Design of Compilers\\CSE439Team3Spring22\\ui\\res/logo.png"))
+        self.logoLabel.setPixmap(QtGui.QPixmap("f:\\Ain Shams\\Spring 2022\\Assignments\\Assignments - CSE439 - Design of Compilers\\CSE439Team3Spring22\\res/logo.png"))
         self.logoLabel.setScaledContents(True)
         self.logoLabel.setObjectName("logoLabel")
         self.scannerPushButton = QtWidgets.QPushButton(self.widget)

@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'f:\Ain Shams\Spring 2022\Assignments\Assignments - CSE439 - Design of Compilers\CSE439Team3Spring22\ui\ParserGUI.ui'
+# Form implementation generated from reading ui file 'f:\Ain Shams\Spring 2022\Assignments\Assignments - CSE439 - Design of Compilers\CSE439Team3Spring22\ParserGUI.ui'
 #
 # Created by: PyQt6 UI code generator 6.3.0
 #
@@ -19,7 +19,7 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
         MainWindow.setSizePolicy(sizePolicy)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("f:\\Ain Shams\\Spring 2022\\Assignments\\Assignments - CSE439 - Design of Compilers\\CSE439Team3Spring22\\ui\\logo.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("f:\\Ain Shams\\Spring 2022\\Assignments\\Assignments - CSE439 - Design of Compilers\\CSE439Team3Spring22\\logo.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -71,7 +71,7 @@ class Ui_MainWindow(object):
         self.errorIcon = QtWidgets.QLabel(self.invalidSyntaxGroup)
         self.errorIcon.setGeometry(QtCore.QRect(80, 10, 41, 51))
         self.errorIcon.setText("")
-        self.errorIcon.setPixmap(QtGui.QPixmap("f:\\Ain Shams\\Spring 2022\\Assignments\\Assignments - CSE439 - Design of Compilers\\CSE439Team3Spring22\\ui\\res/error.webp"))
+        self.errorIcon.setPixmap(QtGui.QPixmap("f:\\Ain Shams\\Spring 2022\\Assignments\\Assignments - CSE439 - Design of Compilers\\CSE439Team3Spring22\\res/error.webp"))
         self.errorIcon.setScaledContents(True)
         self.errorIcon.setObjectName("errorIcon")
         self.syntaxErrorLabel = QtWidgets.QLabel(self.invalidSyntaxGroup)
@@ -93,7 +93,7 @@ class Ui_MainWindow(object):
         self.checkIcon = QtWidgets.QLabel(self.validSyntaxGroup)
         self.checkIcon.setGeometry(QtCore.QRect(0, 0, 51, 61))
         self.checkIcon.setText("")
-        self.checkIcon.setPixmap(QtGui.QPixmap("f:\\Ain Shams\\Spring 2022\\Assignments\\Assignments - CSE439 - Design of Compilers\\CSE439Team3Spring22\\ui\\res/check.png"))
+        self.checkIcon.setPixmap(QtGui.QPixmap("f:\\Ain Shams\\Spring 2022\\Assignments\\Assignments - CSE439 - Design of Compilers\\CSE439Team3Spring22\\res/check.png"))
         self.checkIcon.setScaledContents(True)
         self.checkIcon.setObjectName("checkIcon")
         self.validSyntaxLabel = QtWidgets.QLabel(self.validSyntaxGroup)
@@ -120,7 +120,7 @@ class Ui_MainWindow(object):
         self.actionKerrolos_Wageeh_19P3468.setObjectName("actionKerrolos_Wageeh_19P3468")
         self.showParsingTableAction = QtGui.QAction(MainWindow)
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("f:\\Ain Shams\\Spring 2022\\Assignments\\Assignments - CSE439 - Design of Compilers\\CSE439Team3Spring22\\ui\\parsingtable.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("f:\\Ain Shams\\Spring 2022\\Assignments\\Assignments - CSE439 - Design of Compilers\\CSE439Team3Spring22\\parsingtable.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.showParsingTableAction.setIcon(icon1)
         self.showParsingTableAction.setObjectName("showParsingTableAction")
         self.showDemoAction = QtGui.QAction(MainWindow)
